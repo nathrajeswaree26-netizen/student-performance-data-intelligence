@@ -1,0 +1,16 @@
+Student_ID,Study_Hours,Attendance,Assignment_Score,Final_Marks,Result
+S001,5,85,78,80,Pass
+S002,2,65,55,48,Fail
+S003,7,92,88,91,Pass
+S004,3,70,60,55,Pass
+S005,1,50,40,35,Fail
+S006,6,88,82,85,Pass
+S007,2,60,50,42,Fail
+S008,8,95,90,94,Pass
+S009,4,75,70,68,Pass
+S010,1,45,35,30,Fail
+S011,5,82,76,78,Pass
+S012,3,68,58,51,Pass
+S013,7,90,85,89,Pass
+S014,2,55,45,40,Fail
+S015,6,86,80,83,Pass
