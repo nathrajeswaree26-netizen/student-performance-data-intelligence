@@ -1,0 +1,246 @@
+# 📊 Student Performance Data Intelligence System
+
+**StuDI System** is a data-driven student performance analytics system designed to analyze academic performance and provide meaningful insights through an interactive web dashboard.
+
+The system analyzes **study hours, attendance, assignment scores, final marks, and student results** using Python-based data analysis and machine learning, combined with a modern React dashboard.
+
+---
+
+## 🎯 Project Objective
+
+The main objective of the **Student Performance Data Intelligence System** is to transform student academic data into meaningful insights.
+
+It helps analyze student performance, identify relationships between different academic factors, visualize performance trends, and classify students based on their results.
+
+---
+
+## ✨ Key Features
+
+- 📊 Student performance data analysis
+- 📈 Interactive performance dashboard
+- 👨‍🎓 Student performance overview
+- 📚 Study Hours vs Final Marks analysis
+- 📝 Attendance vs Final Marks analysis
+- ✅ Pass/Fail distribution
+- 🔥 Correlation analysis
+- 📉 Statistical analysis of final marks
+- 🤖 Logistic Regression-based classification
+- 🎨 Colorful and responsive React dashboard
+- 📋 Student records and analytics
+- 📊 Interactive charts and visualizations
+
+---
+
+## 🛠️ Technologies Used
+
+### Data Analysis & Machine Learning
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Seaborn
+- Matplotlib
+
+### Frontend
+
+- React.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- Recharts
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+
+---
+
+## 📂 Project Structure
+
+```text
+StuDI System/
+│
+├── data/
+│   └── student_data.csv
+│
+├── frontend/
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── students.js
+│   │   ├── main.jsx
+│   │   └── index.css
+│   │
+│   ├── package.json
+│   ├── package-lock.json
+│   └── vite.config.js
+│
+├── main.py
+├── requirements.txt
+├── .gitignore
+└── README.md
+
+📊 Dataset
+
+The system uses a student performance dataset containing:
+
+Feature	Description
+Student_ID	Unique student identifier
+Study_Hours	Number of hours studied
+Attendance	Student attendance percentage
+Assignment_Score	Assignment performance score
+Final_Marks	Final examination marks
+Result	Pass or Fail
+📈 Data Analysis
+
+The Python analysis performs:
+
+Average final marks
+Highest final marks
+Lowest final marks
+Median final marks
+Standard deviation
+Missing-value analysis
+Study Hours vs Final Marks visualization
+Attendance vs Final Marks visualization
+Pass vs Fail distribution
+Correlation heatmap
+🤖 Machine Learning
+
+The project uses Logistic Regression for student result classification.
+
+Input Features
+Study Hours
+Attendance
+Assignment Score
+Target
+Fail → 0
+Pass → 1
+
+The model predicts whether a student is likely to be classified as Pass or Fail based on the selected academic features.
+
+Note: The current dataset is a small demonstration dataset, so the reported model accuracy should not be interpreted as real-world performance.
+
+🖥️ Dashboard
+
+The React dashboard contains multiple sections:
+
+📊 Dashboard
+
+Provides an overview of student performance including:
+
+Total Students
+Passed Students
+Failed Students
+Average Marks
+Average Attendance
+Highest Marks
+Lowest Marks
+Performance charts
+👨‍🎓 Students
+
+Displays student records with:
+
+Student ID
+Study Hours
+Attendance
+Assignment Score
+Final Marks
+Result
+🔮 Prediction
+
+Provides a student performance prediction interface using academic inputs.
+
+📈 Analytics
+
+Provides additional performance statistics and analytical insights.
+
+📋 Reports
+
+Provides summarized student performance information.
+
+⚙️ Settings
+
+Contains project and data-related configuration information.
+
+🔄 Data Intelligence Workflow
+Student Dataset
+      ↓
+Data Loading
+      ↓
+Data Analysis
+      ↓
+Statistical Analysis
+      ↓
+Data Visualization
+      ↓
+Feature Selection
+      ↓
+Machine Learning
+      ↓
+Pass / Fail Classification
+      ↓
+Interactive React Dashboard
+⚙️ Installation & Setup
+1. Clone the Repository
+git clone https://github.com/nathrajeswaree26-netizen/student-performance-data-intelligence.git
+2. Navigate to the Project
+cd student-performance-data-intelligence
+3. Create Python Virtual Environment
+python -m venv venv
+4. Activate the Virtual Environment
+
+For Windows PowerShell:
+
+.\venv\Scripts\Activate.ps1
+5. Install Python Dependencies
+pip install -r requirements.txt
+▶️ Run Python Analysis
+
+Run the Python analysis using:
+
+python main.py
+
+This performs data analysis, generates visualizations, and trains the Logistic Regression model.
+
+▶️ Run React Dashboard
+
+Navigate to the frontend:
+
+cd frontend
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+Then open:
+
+http://localhost:5173/
+🚀 Future Enhancements
+MySQL database integration
+Backend API integration
+Real-time ML prediction
+Connecting the React prediction interface with the trained ML model
+Authentication and user management
+Advanced student analytics
+Additional machine learning models
+Exportable performance reports
+Cloud deployment
+👩‍💻 Author
+
+Rajeswaree Nath
+
+B.Tech Computer Science & Technology
+Nalanda Institute of Technology
+
+GitHub
+
+https://github.com/nathrajeswaree26-netizen
